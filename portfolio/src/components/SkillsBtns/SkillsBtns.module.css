@@ -1,0 +1,12 @@
+.btns{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.labelBtns{
+border: 3px solid white;
+border-radius: 25px;
+padding: 9px;
+box-shadow: 2px 2px 2px rgba(190, 184, 184, 0.5);
+}
