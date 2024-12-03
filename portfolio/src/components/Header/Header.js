@@ -4,11 +4,14 @@ import { Navigation } from '../Navigation/Navigation';
 
 
 export const Header = () => {
-
     return (
         <div className={styles.header}>
             <Logo />
-            <Navigation />
+            <div className={styles['center-container']}>
+                <img src="./img/img3.png" alt="pearl img" className={styles.imgp} />
+                <Navigation />
+            </div>
+         
         </div>
-    )
-}
+    );
+};

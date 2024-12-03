@@ -1,6 +1,7 @@
 import styles from './Contact.module.css';
 import { Header } from '../../components/Header/Header';
 import { MainLayout } from '../../components/MainLayout/MainLayot';
+import { Footer } from '../../components/Footer/Footer';
 
 export const Contact = () => {
 
@@ -8,10 +9,9 @@ export const Contact = () => {
         <div className={styles.contact}>
             <Header />
             <MainLayout>
-                {/* <div className={styles.headingContact}> */}
+            <div className={styles.mainContent}>
                     <h3 className={styles.h}>Contact Me </h3>
-                    <p className={styles.p}>If you are ready to create the digital expirience of your dreams</p>
-                {/* </div> */}
+                    <p className={styles.p}>If you are ready to create the digital experience of your dreams</p>   
                 <hr className={styles.hr} />
                 <div className={styles.contactinfo}> 
                 <div className={styles.headline}>
@@ -23,7 +23,8 @@ export const Contact = () => {
                     <span className={styles.linkedin}>linkedin.com/in/tihana-obradovikj-chingarova-078835305</span>
                     <span className={styles.gitHub}>gitHub.com/Tihana985</span>
                 </div>
-                <p className={styles.footer}>CREATE THE DIGITAL EXPRIENCE OF YOUR DREMS</p>
+              <Footer />
+               </div>
             </MainLayout>
 
         </div>

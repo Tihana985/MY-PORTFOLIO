@@ -2,6 +2,7 @@ import styles from './Skills.module.css';
 import { Header } from '../../components/Header/Header';
 import { MainLayout } from '../../components/MainLayout/MainLayot';
 import { SkillsBtns } from '../../components/SkillsBtns/SkillsBtns';
+import { Footer } from '../../components/Footer/Footer';
 
 export const Skills =() => {
 
@@ -14,6 +15,7 @@ export const Skills =() => {
         <div className={styles.skills}>
               <Header />
               <MainLayout>
+                <div className={styles.mainContent}>
                 <div className={styles.headers}>
                 <h3 className={styles.header}>Skills</h3>
                 <h4 className={styles.headerTwo}>Inovaitve and Creative User-friendly Interfaces </h4>
@@ -28,7 +30,8 @@ export const Skills =() => {
                 })}
                 </div>
                 </div>
-                <p className={styles.endP}>CREATE THE DIGITAL EXPRIENCE OF YOUR DREMS</p>
+                <Footer />
+                </div>
                 </MainLayout>
         </div>
     )

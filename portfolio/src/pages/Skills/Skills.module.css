@@ -2,6 +2,13 @@
     width: 100%;
     height: auto;
     font-family: 'Futura', sans-serif;
+    background-color: #d0ccc7;
+}
+
+.mainContent {
+    padding-top: 30px;
+    font-size: 27px;
+    font-family: 'Futura', sans-serif;
 }
 
 .headers {
@@ -11,7 +18,8 @@
     gap: 5px;
     line-height: 1.6;
     font-family: 'Futura', sans-serif;
-    margin-top: 20px;
+    margin-top: 22px;
+    font-size: 28px !important;
 }
 
 .header,
@@ -43,25 +51,12 @@
 
 }
 
-/* .twoParts {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-items: center;
-    font-size: 27px;
-    height: 100%;
-   background-color: red;
-   margin-top: 50px;
-} */
-
-
 
 .twoParts {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: stretch;
-    /* Ensures child items are stretched to the same height */
     font-size: 22px;
     margin-top: 20px;
     height: 100%;
@@ -103,29 +98,28 @@
 @media (max-width: 768px) {
     .headers {
         font-size: 24px;
-        /* Adjust font size */
+
     }
 
     .header,
     .headerTwo {
         font-size: 22px;
-        /* Smaller headers */
+
         text-align: center;
-        /* Center text for better readability */
+
     }
 
     .twoParts {
         flex-direction: column;
-        /* Stack parts vertically */
         align-items: center;
     }
 
     .leftPatrt,
     .rightPart {
         width: 100%;
-        /* Full width for stacked layout */
+
         margin-bottom: 20px;
-        /* Add spacing between sections */
+
     }
 }
 
@@ -133,23 +127,20 @@
 @media (max-width: 480px) {
     .headers {
         font-size: 20px;
-        /* Further reduce font size */
     }
 
     .header,
     .headerTwo {
         font-size: 18px;
-        /* Smaller headers */
     }
 
     .twoParts {
         font-size: 18px;
-        /* Reduce text size for smaller screens */
         margin-top: 30px;
     }
 
     .rightPart {
         gap: 5px;
-        /* Reduce spacing between buttons */
+
     }
 }

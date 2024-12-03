@@ -2,6 +2,7 @@ import styles from './AboutMe.module.css';
 import { Header } from '../../components/Header/Header';
 import { MainLayout } from '../../components/MainLayout/MainLayot';
 import { Link } from 'react-router-dom';
+import { Footer } from '../../components/Footer/Footer';
 
 export const AboutMe = () => {
 
@@ -9,8 +10,7 @@ export const AboutMe = () => {
         <div className={styles.aboutme}>
             <Header />
             <MainLayout>
-                <div className={styles.mainPart}>
-
+                <div className={styles.mainContent}>
                     <div className={styles.aboutText}>
                         <h3 className={styles.h3}>About Me</h3>
                         <p className={styles.p}>I am a JavaScript Full-Stack Developer specializing in web applications with a strong sense of persistence and motivation.
@@ -28,7 +28,7 @@ export const AboutMe = () => {
                         
                         <p className={styles.pContact}>If you would like to reach out, please feel free to <Link to="/contact" className={styles.contactLink}>Contact me.</Link></p>
                     </div>
-                    <p className={styles.endP}>CREATE THE DIGITAL EXPRIENCE OF YOUR DREMS</p>
+                    <Footer />
             </MainLayout>
         </div>
     )
