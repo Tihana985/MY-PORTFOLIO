@@ -11,7 +11,7 @@ export const Contact = () => {
             <MainLayout>
             <div className={styles.mainContent}>
                     <h3 className={styles.h}>Contact Me </h3>
-                    <p className={styles.p}>If you are ready to create the digital experience of your dreams</p>   
+                    <p className={styles.p}>Let’s craft something truly captivating together.</p>   
                 <hr className={styles.hr} />
                 <div className={styles.contactinfo}> 
                 <div className={styles.headline}>

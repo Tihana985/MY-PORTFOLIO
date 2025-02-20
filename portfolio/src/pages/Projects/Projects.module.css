@@ -8,6 +8,16 @@
     padding-top: 0px;
 }
 
+.heading {
+    font-family: 'Futura', sans-serif;
+    margin-top: 22px;
+    align-items: flex-start;
+    margin-top: 59px;
+    font-size: 28px !important;
+
+}
+
+
 .h3 {
     display: flex;
     flex-direction: column;
@@ -17,5 +27,257 @@
     color: white;
     line-height: 1.6;
     width: fit-content;
-    height: 100px;
+
 }
+
+.h32 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-size: 28px;
+    background-color: rgb(245, 241, 227);
+    font-weight: 200;
+    /* width: 93%; */
+    width: fit-content;
+}
+
+.workboxes {
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(202, 194, 194);
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(189, 183, 183);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+
+}
+
+.boxOne {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 50%;
+
+
+}
+
+.dashboardImg {
+    width: 100%;
+    height: 335px;
+    object-fit: contain;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px rgb(168, 164, 164);
+
+}
+
+.boxTwo {
+    height: 500px;
+    width: 30%;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+}
+
+.modalOrderImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.twoparts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 25px;
+}
+
+.nameBtn {
+
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    color: black;
+    font-size: 28px;
+    text-align: start;
+
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(245, 241, 227);
+    /* background-color: #fff083; */
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(147, 144, 144);
+    box-shadow: 1px 1px grey;
+}
+
+.link:hover {
+    background-color: rgb(216, 218, 66);
+    color: #000;
+    border: 2px solid #575729;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.p {
+    text-align: start;
+    font-size: 25px;
+}
+
+/* Vtora kocka */
+
+.workboxesTwo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(202, 194, 194);
+    height: 550px;
+    display: flex;
+    border: 1px solid rgb(189, 183, 183);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+}
+
+.twoBoxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxThree {
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: center;
+    height: 267px;
+    width: 40%;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+}
+
+
+.projectImg {
+    width: 600px;
+    height: 100%;
+    object-fit: contain;
+}
+
+.boxFour {
+    height: 267px;
+    width: 40%;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+}
+
+.skillsImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 60px;
+    /* background-color: red; */
+}
+
+.skillsImg2 {
+    width: 680px;
+    background-color: red;
+
+}
+
+
+
+.twopartsTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 95px;
+
+    width: 87%;
+}
+
+.nameBtnTwo {
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelTwo {
+    color: black;
+    font-size: 28px;
+    text-align: start;
+}
+
+.linkTwo {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    background-color: rgb(245, 241, 227);
+    /* background-color: #fff083; */
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(147, 144, 144);
+    box-shadow: 1px 1px grey;
+}
+
+.linkTwo:hover {
+    background-color: rgb(216, 218, 66);
+    color: #000;
+    border: 2px solid #575729;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.pTwo {
+    text-align: start;
+    font-size: 25px;
+}
+
+/* Treta kocka  */
+
+.workboxesThree {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    background-color: rgb(202, 194, 194);
+    height: 550px;
+    display: flex;
+    border: 1px solid rgb(189, 183, 183);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+}
+
+.link, .linkTwo {
+    font-size: 14px;  /* Ensure consistent size */
+    padding: 7px;     /* Match padding */
+    display: inline-block;
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    font-family: 'Futura', sans-serif;
+}
+
+.mainContent {
+    padding-top: 0px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-top: 59px;
+}
+
+

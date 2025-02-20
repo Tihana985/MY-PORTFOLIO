@@ -4,7 +4,7 @@ export const Footer = () => {
 
     return (
 
-        <div className={styles.footer}>
+        <div className={styles.footer1}>
             <p className={styles.footer}>CREATE THE DIGITAL EXPERIENCE OF YOUR DREMS</p>
         </div>
     )

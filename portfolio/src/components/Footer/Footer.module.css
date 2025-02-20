@@ -1,5 +1,6 @@
-.footer{
+.footer {
     font-size: 17px;
     font-weight: 700;
     text-shadow: 2px 2px 2px rgba(190, 184, 184, 0.5);
+    margin-bottom: 30px;
 }
