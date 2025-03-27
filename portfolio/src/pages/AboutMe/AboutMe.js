@@ -12,15 +12,15 @@ export const AboutMe = () => {
             <MainLayout>
                 <div className={styles.mainContent}>
                     <div className={styles.aboutText}>
-                        <h3 className={styles.h3}>About Me</h3>
-                        <p className={styles.p}>I am a JavaScript Full-Stack Developer specializing in web applications with a strong sense of persistence and motivation.
+                        <h3 className={styles.h3text}>About Me</h3>
+                        <p className={styles.ptext}>I am a JavaScript Full-Stack Developer specializing in web applications with a strong sense of persistence and motivation.
                             I am especially passionate about front-end development, leveraging the power of React to build modern and dynamic user interfaces that enhance user experiences.
                             <br />
                             On the backend, I use Node.js to create robust, scalable server-side applications and APIs.
                             <br />An enthusiast dedicated to development and progress, I bring a multilevel approach to project design, development, and coordination.</p>
                     </div>
                     <div className={styles.imgRart}>
-                        <img src='./img/movie.img 2.jpg' alt="profile img" className={styles.profileimg}/>
+                        <img src='./img/img portfolio 2.png' alt="profile img" className={styles.profileimg}/>
                     </div>
                     
                 </div>

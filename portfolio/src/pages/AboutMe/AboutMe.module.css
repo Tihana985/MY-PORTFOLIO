@@ -23,14 +23,15 @@
     font-size: 27px;
     width: 100%;
     height: auto;
+    /* margin-top: 50px; */
 }
 
-.h3 {
+.h3text {
     color: white;
     font-size: 28px;
 }
 
-.p {
+.ptext {
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -55,7 +56,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    border: 1px solid yellow;
+    border: 1px solid white;
+    box-shadow: 1px 1px rgb(251, 247, 247);
     margin-top: 10%;
 }
 
@@ -137,30 +139,94 @@
         flex: 0 0 100%;
         margin-top: 20px;
     }
+
+    
+    .contactInfo{
+        margin-top: 50px;
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    
+    }
+
+    .pContact{
+        font-size: 15px;
+
+    }
+
+    .contactLink {
+        width: 100px;
+
+    }
 }
 
 /* Media Query for Mobile Screens (480px and below) */
 @media (max-width: 480px) {
+    body {
+        background: red !important;
+    }
+
     .mainContent {
         padding: 10px;
+        flex-direction: column;
+        align-items: center;
     }
 
     .aboutText {
         font-size: 20px;
+        text-align: center;
     }
 
     .profileimg {
-        width: 80%;
+        width: 70%;
         margin-top: 10px;
     }
 
-    .h3 {
+ .h3text {
         font-size: 22px;
-       
     }
 
-    .p {
+ .ptext {
         font-size: 18px;
         line-height: 1.4;
     }
+
+    .contactInfo{
+        margin-top: 10px !important;
+        width: 100% !important; 
+        max-width: 80% !important;
+        text-align: center;
+        font-size: 10px !important;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    
+    }
+
+    .pContact {
+        font-size: 10px !important;
+    /* padding-left: 7px; */
+    width: 100%; /* Ensure it's 100% of the parent width */
+    margin-top: 5px; /* Adjust space between elements */
+    font-size: 8px !important;
+
 }
+    }
+
+    .contactLink {
+        font-size: 14px !important;
+        width: 100px !important;
+        height: 25px !important;
+
+    }
+    .contactLink:hover{
+        font-size: 15px !important;
+    }
+
+

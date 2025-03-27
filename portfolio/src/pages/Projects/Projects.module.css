@@ -1,7 +1,6 @@
 .projects {
     width: 100%;
     font-family: 'Futura', sans-serif;
-    /* min-height: 100vh; */
 }
 
 .mainContent {
@@ -45,35 +44,46 @@
 .workboxes {
     margin-top: 100px;
     width: 100%;
-    background-color: rgb(202, 194, 194);
+    /* background-color: rgb(202, 194, 194); */
+    background-color: rgb(219, 211, 211);
     height: 550px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 1px solid rgb(189, 183, 183);
     box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+    flex-direction: column;
 
+}
+
+.twoBoxesOne {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
 }
 
 .boxOne {
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 100%;
     width: 50%;
+    border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
+
 
 
 }
 
 .dashboardImg {
     width: 100%;
-    height: 335px;
-    object-fit: contain;
-    border: 1px solid rgb(221, 214, 214);
-    box-shadow: 1px rgb(168, 164, 164);
+    height: 100%;
+    object-fit: cover;
+    /* border: 1px solid rgb(221, 214, 214);
+    box-shadow: 1px rgb(168, 164, 164); */
 
 }
 
 .boxTwo {
-    height: 500px;
+    height: 100%;
     width: 30%;
     border: 1px solid rgb(221, 214, 214);
     box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
@@ -90,7 +100,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    margin-top: 25px;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-left: 95px;
+    width: 87%;
+    height: 20%;
 }
 
 .nameBtn {
@@ -141,7 +155,8 @@
     flex-direction: column;
     margin-top: 100px;
     width: 100%;
-    background-color: rgb(202, 194, 194);
+    /* background-color: rgb(202, 194, 194); */
+    background-color: rgb(219, 211, 211);
     height: 550px;
     display: flex;
     border: 1px solid rgb(189, 183, 183);
@@ -200,9 +215,8 @@
     justify-content: space-between;
     align-items: start;
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 70px;
     margin-left: 95px;
-
     width: 87%;
 }
 
@@ -252,16 +266,18 @@
     flex-direction: column;
     margin-top: 100px;
     width: 100%;
-    background-color: rgb(202, 194, 194);
+    /* background-color: rgb(202, 194, 194); */
+    background-color: rgb(219, 211, 211);
     height: 550px;
     display: flex;
     border: 1px solid rgb(189, 183, 183);
     box-shadow: 1px 1px 1px 1px rgb(168, 164, 164);
 }
 
-.link, .linkTwo {
-    font-size: 14px;  /* Ensure consistent size */
-    padding: 7px;     /* Match padding */
+.link,
+.linkTwo {
+    font-size: 14px;
+    padding: 7px;
     display: inline-block;
     text-align: center;
 }
@@ -280,4 +296,180 @@
     margin-top: 59px;
 }
 
+@media (max-width: 768px) {
 
+    .heading {
+        font-size: 28px;
+    }
+
+    .h3,
+    .h32 {
+        font-size: 28px;
+
+    }
+
+    .workboxes,
+    .workboxesTwo,
+    .workboxesThree {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .twoBoxesOne,
+    .twoBoxes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* Centers images */
+        width: 100%;
+
+    }
+
+    .boxOne,
+    .boxTwo,
+    .boxThree,
+    .boxFour {
+        width: 100% !important;
+        /* Makes each box full width */
+        height: auto;
+        /* Adjusts height automatically */
+        margin-bottom: 30px;
+        /* Adds spacing between images */
+        object-fit: cover;
+        border: none;
+        box-shadow: none;
+    }
+
+    .dashboardImg,
+    .modalOrderImg,
+    .projectImg,
+    .skillsImg {
+        width: 100%;
+        /* Ensures the images fill their container */
+        height: auto;
+        object-fit: contain;
+
+    }
+
+    .boxThree img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .boxOne,
+    .boxTwo,
+    .boxThree,
+    .boxFour {
+        /* display: flex;
+        flex-direction: column; */
+        /* width: 40%;
+        height: 60%;
+        justify-content: space-between; */
+    }
+
+    .workboxesTwo {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .twoBoxes {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .projectImg {
+        width: 170%;
+    }
+
+
+    .p {
+        width: 200%;
+    }
+
+    .pTwo {
+        width: 85%;
+    }
+
+
+
+    .twoparts {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between;
+        background-color: green; */
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .twopartsTwo {
+        width: 100%;
+        margin: 20px 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nameBtn {
+        width: 80%;
+        margin-right: 5%;
+    }
+
+    .label {
+        width: 80%;
+        font-size: 8px;
+    }
+
+    .link {}
+
+    .nameBtnTwo {
+        width: 80%;
+        margin-right: 5%;
+    }
+
+
+    .heading {
+
+        text-align: start;
+    }
+
+    .label {
+        font-size: 25px;
+    }
+
+    .p {
+        width: 85%;
+        font-size: 23px;
+    }
+
+    .labelTwo {
+        font-size: 25px;
+    }
+
+    .pTwo {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 20px;
+    }
+
+    .h3,
+    .h32,
+    .label,
+    .labelTwo,
+    .p,
+    .pTwo {
+        font-size: 18px;
+    }
+
+    .link,
+    .linkTwo {
+        font-size: 14px;
+        padding: 5px;
+    }
+}

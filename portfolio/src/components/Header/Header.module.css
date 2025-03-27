@@ -1,62 +1,109 @@
 .header {
     display: flex;
-    justify-content: space-between; /* Align Logo to the left and Navigation to the right */
-    align-items: center; /* Vertically center items */
+    justify-content: space-between;
+    align-items: center;
     background-color: #d0ccc7;
     height: 100px;
-    width: auto; 
+    width: auto;
     z-index: 1000;
 }
 
 .center-container {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    width:55%;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
 }
 
 .imgp {
-    width: 100px;
+    width: 50px;
     height: auto;
     transition: width 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.3s ease;
+}
+
+.open {
+    transform: rotate(45deg);
+}
+
+.open + .line {
+    transform: rotate(-45deg);
 }
 
 /* Tablet view */
 @media (max-width: 768px) {
     .header {
-        height: 80px; 
-        padding: 0; 
+        height: 80px;
+        padding: 0;
     }
 
     .center-container {
-        width: 80%; 
+        width: 80%;
     }
 
     .imgp {
-        width: 80px; 
+        width: 50px;
     }
+
+    .hamburger {
+        display: flex; 
+    }
+
+    .nav {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav.open {
+        display: flex; 
+    }
+
 }
 
 /* Mobile view */
 @media (max-width: 480px) {
     .header {
-        height: 70px; 
-        padding: 0 2px; 
-        flex-wrap: wrap; 
-        justify-content: center; 
+        height: 70px;
+        padding: 0 2px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .center-container {
-        width: 100%; 
-        justify-content: center; 
+        width: 100%;
+        justify-content: center;
     }
 
     .imgp {
-        width: 60px; 
+        width: 60px;
     }
 
-    .navigation {
-        margin-top: 10px; 
+    .nav {
+        margin-top: 10px;
+    }
+
+    .nav.open {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
-

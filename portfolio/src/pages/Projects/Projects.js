@@ -8,9 +8,9 @@ import LoginImg from '../../assets/LoginImg.png';
 import SaveImg from '../../assets/SaveImg.png';
 import ModalOrder from '../../assets/ModalOrder.png';
 import ContactImg from '../../assets/ContactImg.png';
-import ProjectImg2 from '../../assets/ProjectImg2.png';
+import ProjectImg2 from '../../assets/aboutme.png';
 import SkillsImg2 from '../../assets/SkillsImg2.png';
-import SkillsImg from '../../assets/SkillsImg.png';
+import SkillsImg from '../../assets/skills.png';
 
 
 export const Projects = () => {
@@ -19,6 +19,7 @@ export const Projects = () => {
   const [imageSrcTwo, setImageSrcTwo] = useState(ModalOrder)
   const [imageSrcThree, setImageSrcThree] = useState(ProjectImg2)
   const [imageSrcFour, setImageSrcFour] = useState(SkillsImg)
+
 
 
   return (
@@ -31,11 +32,21 @@ export const Projects = () => {
             <h3 className={styles.h32}>I love creating digital experiences through beautifully designed websites and a strong, impactful brand image.</h3>
           </div>
           <div className={styles.workboxes}>
+          <div className={styles.twoBoxesOne}>
             <div className={styles.boxOne}
               onMouseEnter={() => setImageSrc(LoginImg)}
               onMouseLeave={() => setImageSrc(dashboardImg)}
             >
               <img src={imageSrc} alt="dashboard screenshot" className={styles.dashboardImg} />
+              </div>
+              <div className={styles.boxTwo}
+            onMouseEnter={() => setImageSrcTwo(SaveImg)}
+              onMouseLeave={() => setImageSrcTwo(ModalOrder)}
+            >
+              <img src={imageSrcTwo} alt='/img ModalOrder' className={styles.modalOrderImg} />
+            </div>
+            </div>
+            
               <div className={styles.twoparts}>
                 <div className={styles.nameBtn}>
                 <label className={styles.label}>Project Name: ITLabs Stock Dolphin</label>
@@ -46,13 +57,8 @@ export const Projects = () => {
                  </div>
                 <p className={styles.p}>Innovative Inventory System designed to revolutionize the way offices manage and stock their supplies. </p>
               </div>
-            </div>
-            <div className={styles.boxTwo}
-            onMouseEnter={() => setImageSrcTwo(SaveImg)}
-              onMouseLeave={() => setImageSrcTwo(ModalOrder)}
-            >
-              <img src={imageSrcTwo} alt='/img ModalOrder' className={styles.modalOrderImg} />
-            </div>
+          
+          
           </div>
 
           <div className={styles.workboxesTwo}>
