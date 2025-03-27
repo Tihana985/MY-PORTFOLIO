@@ -3,7 +3,8 @@
 
 
 # Skills Page
-## ![Skills Page img](https://github.com/user-attachments/assets/7d8bcb10-3f2b-438e-9399-f0246a38e40b)
+## ![skills](https://github.com/user-attachments/assets/f3a5ee2f-2bf4-4382-84a4-6d39bb721e83)
+
 
 
 # Contact Page 
