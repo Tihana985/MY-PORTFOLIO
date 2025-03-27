@@ -2,7 +2,8 @@
 ## ![aboutme](https://github.com/user-attachments/assets/f976ede1-ef1e-4239-bf8e-e64934c0e42a)
 
 # Projects Page
-## ![projects](https://github.com/user-attachments/assets/6ab48557-a7f3-4952-9a34-0d73f74d994b)
+## ![projetcs2](https://github.com/user-attachments/assets/1ebc1a7f-1b96-4399-b014-1562a853c536)
+
 
 
 # Skills Page
@@ -13,3 +14,4 @@
 # Contact Page 
 ## ![contact](https://github.com/user-attachments/assets/c1af7dee-699a-4896-ab2c-f328cf7c0132)
 
+![projetcs2](https://github.com/user-attachments/assets/53990ee7-9b65-4e44-89be-cf323c9d8b9d)
