@@ -13,5 +13,3 @@
 
 # Contact Page 
 ## ![contact](https://github.com/user-attachments/assets/c1af7dee-699a-4896-ab2c-f328cf7c0132)
-
-![projetcs2](https://github.com/user-attachments/assets/53990ee7-9b65-4e44-89be-cf323c9d8b9d)
