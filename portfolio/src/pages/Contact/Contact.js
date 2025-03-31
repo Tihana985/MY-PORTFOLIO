@@ -10,7 +10,7 @@ export const Contact = () => {
             <Header />
             <MainLayout>
             <div className={styles.mainContent}>
-                    <h3 className={styles.h}>Contact Me </h3>
+                    <h3 className={styles.heading}>Contact Me </h3>
                     <p className={styles.p}>Let’s craft something truly captivating together.</p>   
                 <hr className={styles.hr} />
                 <div className={styles.contactinfo}> 

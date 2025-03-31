@@ -54,11 +54,17 @@
     }
 
     .center-container {
-        width: 80%;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
     }
 
     .imgp {
-        width: 50px;
+        /* width: 50px; */
+        display: none;
     }
 
     .hamburger {
@@ -81,10 +87,14 @@
 /* Mobile view */
 @media (max-width: 480px) {
     .header {
-        height: 70px;
+        height: 100px;
         padding: 0 2px;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+       
+     display: flex;
+     justify-content: space-evenly;
     }
 
     .center-container {

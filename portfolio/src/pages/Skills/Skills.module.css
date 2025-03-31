@@ -103,7 +103,7 @@
     .header,
     .headerTwo {
         font-size: 28px;
-        text-align: center;
+        text-align: start;
 
     }
 
@@ -115,12 +115,15 @@
     .leftPatrt,
     .rightPart {
         width: 100%;
-
         margin-bottom: 20px;
 
     }
-}
 
+    .rightPart {
+        display: flex;
+        margin-right: 7%;
+}
+}
 /* For mobile screens */
 @media (max-width: 480px) {
     .headers {

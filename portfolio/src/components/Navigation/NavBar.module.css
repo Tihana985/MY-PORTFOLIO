@@ -23,13 +23,26 @@
     cursor: pointer;
 }
 
-@media (max-width: 468px) {
+@media (max-width: 768px) {
+
     .navLink {
+        display: flex;
         flex-direction: column;
-        font-size: 14px; /* Smaller font size for links */
+        font-size: 15px; 
     }
 
     .label {
-        font-size: 14px; /* Adjust label size too */
+        font-size: 15px; 
+}
+}
+
+@media (max-width: 468px) {
+    .navLink {
+        flex-direction: column;
+        font-size: 13px; 
+    }
+
+    .label {
+        font-size: 12px; 
     }
 }
